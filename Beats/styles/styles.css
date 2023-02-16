@@ -1,0 +1,374 @@
+*
+{
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+        background: #0f0f10;
+        font-family: "Poppins", sans-serif;
+        color: #ffffff;
+      }
+      header{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+     .fir{
+        display: flex;
+        justify-content: center;
+     } 
+     .cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+     }
+     .sec{
+        display: flex;
+        justify-content: center;
+     }
+     ul{
+        margin-left: 170px;
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 25px;
+        color: #ffffff;
+        font-weight: 700;
+     }
+     li{
+        list-style: none;
+        cursor: pointer;
+     }
+     .btn1{
+        margin-top: 10px;
+        margin-left: 30px;
+        height: 50px;
+        padding: 5px 35px;
+        box-shadow: -1px -1px  white;
+        color: #ffffff;
+        font-weight: 700;
+         background: #1e1e21;
+         border-radius: 8px;
+     }
+     .beats3{
+        margin-top: 60px;
+        padding-left: 200px;
+     }
+     .logo{
+        height: 30px;
+        margin-right: 170px;
+        margin-left: 100px;
+        margin-top: 50px;
+     }
+     .abc{
+        display: flex;
+        
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+        margin-left: 300px;
+        margin-right: 200px;
+        padding-left: 50px;
+     }
+     .btns2{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           gap: 15px;
+             width: 250px;
+             padding: 10px 20px;
+             color: #ffffff;
+        font-weight: 700;
+         background: #1e1e21;
+         border-radius: 8px;
+     }
+     .btns2 img{
+        background-color: transparent;
+     }
+     .btns2 span{
+        background-color: transparent;
+     }
+     .btns3 img{
+        background-color: transparent;
+     }
+     .brands{
+        margin-top:70px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+     }
+     .specs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+     }
+     .xyz{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .specs1 ul{
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+     }
+     .shift{
+        margin-left: 70px;
+     }
+     .specs2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .case{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+     }
+     .lbw{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 100px;
+     }
+     .case1{
+        margin-left: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .case2{
+        margin-right: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+     }
+     .btns3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+             width: 200px;
+             padding: 10px 20px;
+             color: #ffffff;
+        font-weight: 700;
+         background: #1e1e21;
+         border-radius: 8px;
+     }
+     .imp{
+        position: relative;
+        top: -35px;
+        left: 70px;
+     }
+     .fourty{
+        margin:100px 200px 5px 200px;
+        padding: 50px 70px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 50px;
+        background-color: #1e1e21;
+        border-radius: 5px;
+     }
+     .left{
+        background-color:  #1e1e21;
+     }
+     .left h3 {
+        background-color: #1e1e21;
+     }
+     .left p {
+        background-color: #1e1e21;
+     }
+     .left button {
+        background-color:  #0f0f10;
+        border: 2px solid  #0f0f10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+     }
+     .left button img {
+        background-color:  #0f0f10;;
+     }
+     .right img{
+        background-color:  #1e1e21;
+        display: flex;
+        align-items: center;
+     }
+     .right{
+        background-color: #1e1e21;
+     }
+     .product {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 150px;
+       
+      }
+      
+      .product-logo {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .product-logo {
+        scale: 0.3;
+      }
+      
+      .product-items {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 0 350px;
+
+      }
+      
+      .product-card {
+        position: relative;
+         width: 130px;
+        height: 130px;
+         background: #181a1b;
+        border-radius: 8px; 
+      }
+      
+      .product-img {
+        width: 75px;
+        height: 100px;
+        position: absolute;
+        z-index: 100;
+        top: -40px;
+        left: 28px;
+      }
+      
+      .product-img,
+      .product-card p,
+      .product-card span,
+      .product-card img,
+      .product-card div {
+        background-color: transparent;
+      }
+      
+      .product-info {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding: 10px 15px;
+      }
+      
+      .product-info p {
+        font-size: 12px;
+      }
+      
+      .product-info p span {
+        color: #bdc0c2;
+      }
+      
+      .product-info div {
+        background: #0a0a0b;
+        border-radius: 8px;
+        padding: 2px 6px;
+      }
+      
+      .product-info div img {
+        width: 13px;
+        height: 13px;
+      }
+      
+     
+     .product-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       gap: 20px;
+     }
+     .product-info img{
+        height: 20px;
+        background-color: #1e1e21;
+        
+     }
+     .product-info p{
+        background-color: #1e1e21;
+     }
+     .product-info span{
+        background-color: #1e1e21;
+     }
+     footer{
+        margin: 100px 0 100px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+     }
+     .products{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+     }
+     .support{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+     }
+     h2{
+        margin-bottom: 20px;
+     }
+     .social{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+     }
+     .footer-subscription{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .footer-subscription div:first-child{
+        background: #181A1B;
+      border-radius: 8px;
+      padding: 5px 10px;
+      display: flex;
+      }
+      .footer-subscription div:first-child input{
+        border: none;
+        background-color: transparent;
+      }
+      .subscribe-button{
+        background: #0A0A0B;
+        border-radius: 8px;
+        padding: 10px 20px;
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .subscribe-button img{
+        scale: .8;
+      }
+      .subscribe-button p{
+        font-size: 12px;
+        background-color: #0A0A0B;
+      }
+      .footer-subscription div:last-child img{
+        margin-right: 10px;
+        scale: 0.8;
+      }
